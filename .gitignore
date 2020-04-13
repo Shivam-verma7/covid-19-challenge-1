@@ -1,1 +1,5 @@
 **/.DS_Store
+**/all_research.csv
+**/new_research_base.csv
+**/finalized_model.pickle
+**/.ipynb_checkpoints
