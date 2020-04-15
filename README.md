@@ -4,9 +4,13 @@ We believe that the access to right information is a critical weapon in fighting
 
 ## Getting Started
 
-The website is accessible through this [link](https://johnelmer.github.io/covid-19-challenge/index.html)
+The website is accessible through this [link](https://johnelmer.github.io/covid-19-challenge/index.html).
 
-### Project Directory
+## Acknowledgments
+
+The developers would like to acknowledge the following websites/organizations as sources of data:
+* Inspiration
+* etc
 
 ### Data
 
@@ -20,12 +24,15 @@ The website is accessible through this [link](https://johnelmer.github.io/covid-
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+This project is currently not open for contributions from other developers. If you have any suggestions, please contact the developers of this website.
 
 ## Version History
 
-* Version 1
-- Initial Release: April 15, 2020
+* Version 1: Initial Release: April 15, 2020
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Authors
 
@@ -34,17 +41,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 * **Shrey Shah**
 * **Shivam Verma**
 
-## License
+## Project Disclaimer
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-# COVID-19 Challenge
-Private repository for UC Davis MSBA COVID19 Challenge
-
-Copyright© 2020 by: Mitesh Jain, John Elmer Loretizo, Shrey Shah, Shivam Verma
+This project is originally released as an entry submission for UC Davis MSBA COVID19 Challenge Competition.
