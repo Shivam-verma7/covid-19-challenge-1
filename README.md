@@ -9,10 +9,12 @@ The website is accessible through this [link](https://johnelmer.github.io/covid-
 ## Acknowledgments
 
 The developers would like to acknowledge the following websites/organizations as sources of data:
-* Inspiration
-* etc
+* [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide) - Data on the geographic distribution of COVID-19 cases worldwide
+* [Worldometer](https://www.worldometers.info/coronavirus/) - Country-wise distribution, cases trends, total cases in absolute numbers
 
-### Data
+## Data
+
+
 
 ## Built With
 
