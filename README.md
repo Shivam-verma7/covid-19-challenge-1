@@ -26,6 +26,10 @@ The developers would like to acknowledge the following websites/organizations as
 * [Spain COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Spain) - Spain Confirmed Cases by age and gender
 * [Canada COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Canada#By_age) - Canada Confirmed Cases by age
 
+The developers would also like to acknowledge the following websites for the technical components of this website:
+* [HTML5 UP](http://html5up.net) - Website Template
+* [Unsplash](http://unsplash.com) - Stock Photos
+
 ## Data
 
 
