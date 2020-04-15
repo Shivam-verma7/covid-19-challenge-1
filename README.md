@@ -4,31 +4,17 @@ We believe that the access to right information is a critical weapon in fighting
 
 ## Getting Started
 
-The website is accessible through this [link](https://johnelmer.github.io/covid-19-challenge/index.html).
+The website is accessible through this [link](https://johnelmer.github.io/covid-19-challenge/index.html). A copy of the accompanying presentation can be viewed [here](https://docs.google.com/presentation/d/1Zw0Xh7EcZm_0IaB1KoYhlxPsGQtBoXIXlhiXVCv27Fs/edit?usp=sharing)
 
-## Acknowledgments
+## Development Notebooks
 
-The developers would like to acknowledge the following websites/organizations as sources of data:
-* [World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) - Virus Information, Symptoms, and Prevention
-* [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide) - Data on the geographic distribution of COVID-19 cases worldwide
-* [Worldometer](https://www.worldometers.info/coronavirus/) - Country-wise distribution, cases trends, total cases in absolute numbers
-* [Yahoo Finance](https://finance.yahoo.com/) - Stock Market Data
-* [International Monetary Fund](https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020) - Worldwide GDP Outlook and Unemployment
-* [Bureau of Labor Statistics](https://www.bls.gov/web/empsit/cpseea31.htm) - Unemployment by Industry
-* [Trials Tracker Project by the DataLab](http://covid19.trialstracker.net/index.html) - COVID-19 Trials Tracker
-* [Statista](https://www.statista.com/) - Coronavirus (COVID-19) cases in India, New Zealand, Sweden, Iceland, Japan, Romania, Norway, Finland, and Wuhan China 2020, by age group
-* [Cambodia COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Cambodia#Confirmed_Cases) - Cambodia Confirmed Cases by age and gender
-* [Netherlands COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_Netherlands#Statistics) - Netherlands Confirmed Cases by age and gender
-* [Italy COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Italy) - Italy Confirmed Cases by age and gender
-* [Belgium COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Belgium) - Belgium Confirmed Cases by age and gender
-* [Philippines COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_Philippines) - Philippines Confirmed Cases by age and gender
-* [South Korea COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_South_Korea) - South Korea Confirmed Cases by age and gender
-* [Spain COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Spain) - Spain Confirmed Cases by age and gender
-* [Canada COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Canada#By_age) - Canada Confirmed Cases by age
+The following notebook is used for text analytics and development of a research dataset:
+* [Articles.ipynb](https://github.com/johnelmer/covid-19-challenge/blob/master/Articles.ipynb) - Notebook built the Coronavirus Researches Dataset and performed text analytics for recommendation of researches based on user search query. (Feature to be added on website)
 
-The developers would also like to acknowledge the following websites for the technical components of this website:
-* [HTML5 UP](http://html5up.net) - Website Template
-* [Unsplash](http://unsplash.com) - Stock Photos
+The following notebooks are used to scrape data from various sources:
+* [COVID19.ipynb](https://github.com/johnelmer/covid-19-challenge/blob/master/COVID19.ipynb) - Notebook built the US Expanded Counties Cases dataset
+* [scraping_code.ipynb](https://github.com/johnelmer/covid-19-challenge/blob/master/scraping_code.ipynb) - Notebook built the stocks dataset
+* [COVID_Spain_Age_Gender_Data.ipynb](https://github.com/johnelmer/covid-19-challenge/blob/master/COVID_Spain_Age_Gender_Data.ipynb) - Notebook built the Spain Demographics Datset
 
 ## Data
 
@@ -74,13 +60,51 @@ WEO Country Code	ISO	WEO Subject Code	Country	Subject Descriptor	Subject Notes	U
 ...
 ```
 
+### Gender Age Consolidated Data
+Dataset for India, New Zealand, Sweden, Iceland, Japan, Romania, Norway, Finland, Wuhan China, Cambodia, Netherlands, Italy, Belgium, Philippines, South Korea, Canada Confirmed Cases by age and gender. Download dataset [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/Gender%20Age%20consolidated%20data.xlsx)
+
+### Spain Cases by Demographics
+Dataset can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/Spain_Gender_Age_Data.xlsx)
+
 The following datasets have been curated for future use and development:
 
-### US Counties cases
-Cases by US Counties can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/us-counties.csv)
+### US Expanded Counties Cases
+In-house built dataset the includes all demographic information for city/county level in areas where there are confirmed COVID Cases. Dataset can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/appended_us-counties.csv)
+
+### Coronavirus Researches Dataset
+Specially Aggregated In-house dataset of coronavirus-related researches. Curated dataset can be downloaded [here](https://drive.google.com/file/d/1LhLk56VpoQkN1ikQnq2EBwciRkkdj0-2/view?usp=sharing). Original dataset initiated by: [Allen Institute AI](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
 
 ### US Counties cases
-Cases by US Counties can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/us-counties.csv)
+Cases by US Counties can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/us-counties.csv). Originally forked from: [JHU Github](https://github.com/CSSEGISandData/COVID-19)
+
+### US States cases
+Cases by US States can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/us-counties.csv)
+Originally forked from: [JHU Github](https://github.com/CSSEGISandData/COVID-19)
+
+
+## Acknowledgments
+
+The developers would like to acknowledge the following websites/organizations as sources of data:
+* [World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) - Virus Information, Symptoms, and Prevention
+* [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide) - Data on the geographic distribution of COVID-19 cases worldwide
+* [Worldometer](https://www.worldometers.info/coronavirus/) - Country-wise distribution, cases trends, total cases in absolute numbers
+* [Yahoo Finance](https://finance.yahoo.com/) - Stock Market Data
+* [International Monetary Fund](https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020) - Worldwide GDP Outlook and Unemployment
+* [Bureau of Labor Statistics](https://www.bls.gov/web/empsit/cpseea31.htm) - Unemployment by Industry
+* [Trials Tracker Project by the DataLab](http://covid19.trialstracker.net/index.html) - COVID-19 Trials Tracker
+* [Statista](https://www.statista.com/) - Coronavirus (COVID-19) cases in India, New Zealand, Sweden, Iceland, Japan, Romania, Norway, Finland, and Wuhan China 2020, by age group
+* [Cambodia COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Cambodia#Confirmed_Cases) - Cambodia Confirmed Cases by age and gender
+* [Netherlands COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_Netherlands#Statistics) - Netherlands Confirmed Cases by age and gender
+* [Italy COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Italy) - Italy Confirmed Cases by age and gender
+* [Belgium COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Belgium) - Belgium Confirmed Cases by age and gender
+* [Philippines COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_Philippines) - Philippines Confirmed Cases by age and gender
+* [South Korea COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_South_Korea) - South Korea Confirmed Cases by age and gender
+* [Spain COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Spain) - Spain Confirmed Cases by age and gender
+* [Canada COVID Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Canada#By_age) - Canada Confirmed Cases by age
+
+The developers would also like to acknowledge the following websites for the technical components of this website:
+* [HTML5 UP](http://html5up.net) - Website Template
+* [Unsplash](http://unsplash.com) - Stock Photos
 
 ## Built With
 
@@ -105,10 +129,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Project Disclaimer
 
 This project is originally released as an entry submission for UC Davis MSBA COVID19 Challenge Competition.
-
-## Authors
-
-* **Mitesh Jain**
-* **John Elmer Loretizo**
-* **Shrey Shah**
-* **Shivam Verma**
