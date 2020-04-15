@@ -44,7 +44,7 @@ index,trial_id,registry,registration_date,start_date,retrospective_registration,
 
 ### Current COVID Cases
 
-Clinical Trials data can be downloaded [here]().
+Clinical Trials data can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/CurrentReports.csv).
 ```
 ,"Country,Other",TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCases,"Serious,Critical",Tot Cases/1M pop,Deaths/1M pop,TotalTests,"Tests/1M pop"
 0,World,"1,266,782","+65,329","69,177","+4,489","261,132","936,473","45,530",163,8.9,,
@@ -53,7 +53,7 @@ Clinical Trials data can be downloaded [here]().
 
 ### GDP Outlook
 
-GDP Outlook data can be downloaded [here]().
+GDP Outlook data can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/GDPOutlook.csv).
 ```
 Country,2019,2020,2021
 Afghanistan,3.037,-3.007,4.495
@@ -61,15 +61,24 @@ Afghanistan,3.037,-3.007,4.495
 ```
 
 ### World Unemployment
+World Unemployment data can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/WorldUnemployment.csv)
 
 ### Unemployment by Industry
 
-Unemployment by Industry data can be downloaded [here]
+Unemployment by Industry data can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/unemployement_industry.csv)
 ```
 Serial,Industry and class of worker,Mar.2019,Mar.2020,Total Mar.2019,Total Mar.2020,Men Mar.2019,Men Mar.2020,Women Mar.2019,Women Mar.2020
 0,"Total, 16 years and over(1)",6382,7370,3.9,4.5,4.3,4.8,3.5,4.2
 ...
 ```
+
+The following datasets have been curated for future use and development:
+
+### US Counties cases
+Cases by US Counties can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/us-counties.csv)
+
+### US Counties cases
+Cases by US Counties can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/us-counties.csv)
 
 ## Built With
 
