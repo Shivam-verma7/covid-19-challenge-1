@@ -55,8 +55,9 @@ Clinical Trials data can be downloaded [here](https://github.com/johnelmer/covid
 
 GDP Outlook data can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/GDPOutlook.csv).
 ```
-Country,2019,2020,2021
-Afghanistan,3.037,-3.007,4.495
+WEO Country Code	ISO	WEO Subject Code	Country	Subject Descriptor	Subject Notes	Units	Scale	Country/Series-specific Notes	1980	1981	1982	1983	1984	1985	1986	1987	1988	1989	1990	1991	1992	1993	1994	1995	1996	1997	1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	2021	Estimates Start After
+512	AFG	NGDP_RPCH	Afghanistan	Gross domestic product, constant prices	Annual percentages of constant price GDP are year-on-year changes; the base year is country-specific . Expenditure-based GDP is total final expenditures at purchasers? prices (including the f.o.b. value of exports of goods and services), less the f.o.b. value of imports of goods and services. [SNA 1993]	Percent change		Source: National Statistics Office Latest actual data: 2018 Notes: National accounts data is originally compiled on the basis of a solar year, which runs from March 21 to March 20. Data is converted to calendar years for the purpose of WEO publication. National accounts manual used: System of National Accounts (SNA) 1993 GDP valuation: Market prices Start/end months of reporting year: January/December. none Base year: 2002. Base year is the solar year 2002/03 Chain-weighted: No	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	8.692	0.671	11.83	5.361	13.34	3.863	20.585	8.438	6.479	13.968	5.683	2.697	0.988	2.164	2.889	2.664	3.037	-3.007	4.495	2018
+
 ...
 ```
 
@@ -67,8 +68,9 @@ World Unemployment data can be downloaded [here](https://github.com/johnelmer/co
 
 Unemployment by Industry data can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/unemployement_industry.csv)
 ```
-Serial,Industry and class of worker,Mar.2019,Mar.2020,Total Mar.2019,Total Mar.2020,Men Mar.2019,Men Mar.2020,Women Mar.2019,Women Mar.2020
-0,"Total, 16 years and over(1)",6382,7370,3.9,4.5,4.3,4.8,3.5,4.2
+WEO Country Code	ISO	WEO Subject Code	Country	Subject Descriptor	Subject Notes	Units	Scale	Country/Series-specific Notes	1980	1981	1982	1983	1984	1985	1986	1987	1988	1989	1990	1991	1992	1993	1994	1995	1996	1997	1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020	2021	Estimates Start After
+512	AFG	NGDP_RPCH	Afghanistan	Gross domestic product, constant prices	Annual percentages of constant price GDP are year-on-year changes; the base year is country-specific . Expenditure-based GDP is total final expenditures at purchasers? prices (including the f.o.b. value of exports of goods and services), less the f.o.b. value of imports of goods and services. [SNA 1993]	Percent change		Source: National Statistics Office Latest actual data: 2018 Notes: National accounts data is originally compiled on the basis of a solar year, which runs from March 21 to March 20. Data is converted to calendar years for the purpose of WEO publication. National accounts manual used: System of National Accounts (SNA) 1993 GDP valuation: Market prices Start/end months of reporting year: January/December. none Base year: 2002. Base year is the solar year 2002/03 Chain-weighted: No	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	8.692	0.671	11.83	5.361	13.34	3.863	20.585	8.438	6.479	13.968	5.683	2.697	0.988	2.164	2.889	2.664	3.037	-3.007	4.495	2018
+
 ...
 ```
 
