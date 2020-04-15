@@ -32,7 +32,14 @@ The developers would also like to acknowledge the following websites for the tec
 
 ## Data
 
+### Clinical Trials DataLab
 
+Clinical Trials data can be downloaded [here]().
+```
+index,trial_id,registry,registration_date,start_date,retrospective_registration,sponsor,recruitment_status,phase,study_type,countries,title,intervention_type,intervention,enrollment,primary_completion_date,full_completion_date,registy_url,results_type,results_published_date,results_url,last_updated,first_seen
+0,ChiCTR2000029953,ChiCTR,2020-02-17,2020-02-01,True,Zhongnan Hospital of Wuhan University,Not Recruiting,Not Applicable,Observational,China,Construction and Analysis of Prognostic Predictive Model of Novel Coronavirus Pneumonia (COVID-19),Prognosis,No Intervention,400,Not Available,2021-05-01,http://www.chictr.org.cn/showproj.aspx?proj=49217,No Results,No Results,No Results,2020-02-17,2020-08-03
+...
+```
 
 ## Built With
 
@@ -54,13 +61,13 @@ This project is currently not open for contributions from other developers. If y
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Project Disclaimer
+
+This project is originally released as an entry submission for UC Davis MSBA COVID19 Challenge Competition.
+
 ## Authors
 
 * **Mitesh Jain**
 * **John Elmer Loretizo**
 * **Shrey Shah**
 * **Shivam Verma**
-
-## Project Disclaimer
-
-This project is originally released as an entry submission for UC Davis MSBA COVID19 Challenge Competition.
