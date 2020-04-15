@@ -32,12 +32,42 @@ The developers would also like to acknowledge the following websites for the tec
 
 ## Data
 
-### Clinical Trials DataLab
+The following datasets have been used in the website:
+### Clinical Trials
 
-Clinical Trials data can be downloaded [here]().
+Clinical Trials data can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/ClinicalTrials.csv).
 ```
 index,trial_id,registry,registration_date,start_date,retrospective_registration,sponsor,recruitment_status,phase,study_type,countries,title,intervention_type,intervention,enrollment,primary_completion_date,full_completion_date,registy_url,results_type,results_published_date,results_url,last_updated,first_seen
 0,ChiCTR2000029953,ChiCTR,2020-02-17,2020-02-01,True,Zhongnan Hospital of Wuhan University,Not Recruiting,Not Applicable,Observational,China,Construction and Analysis of Prognostic Predictive Model of Novel Coronavirus Pneumonia (COVID-19),Prognosis,No Intervention,400,Not Available,2021-05-01,http://www.chictr.org.cn/showproj.aspx?proj=49217,No Results,No Results,No Results,2020-02-17,2020-08-03
+...
+```
+
+### Current COVID Cases
+
+Clinical Trials data can be downloaded [here]().
+```
+,"Country,Other",TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCases,"Serious,Critical",Tot Cases/1M pop,Deaths/1M pop,TotalTests,"Tests/1M pop"
+0,World,"1,266,782","+65,329","69,177","+4,489","261,132","936,473","45,530",163,8.9,,
+...
+```
+
+### GDP Outlook
+
+GDP Outlook data can be downloaded [here]().
+```
+Country,2019,2020,2021
+Afghanistan,3.037,-3.007,4.495
+...
+```
+
+### World Unemployment
+
+### Unemployment by Industry
+
+Unemployment by Industry data can be downloaded [here]
+```
+Serial,Industry and class of worker,Mar.2019,Mar.2020,Total Mar.2019,Total Mar.2020,Men Mar.2019,Men Mar.2020,Women Mar.2019,Women Mar.2020
+0,"Total, 16 years and over(1)",6382,7370,3.9,4.5,4.3,4.8,3.5,4.2
 ...
 ```
 
