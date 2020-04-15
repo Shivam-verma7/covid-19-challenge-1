@@ -1,6 +1,6 @@
 # Everything COVID
 
-We believe that the access to right information is a critical weapon in fighting this pandemic. This project aims at building a one-stop-all-information website about COVID19. Everything COVID narrates the effect of this virus in various facets.
+We believe that the access to right information is a critical weapon in fighting this pandemic. This project aims at building a one-stop-all-information website about COVID-19. Everything COVID narrates the effect of this virus in various facets.
 
 ## Getting Started
 
@@ -128,4 +128,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Project Disclaimer
 
-This project is originally released as an entry submission for UC Davis MSBA COVID19 Challenge Competition.
+This project is originally released as an entry submission for UC Davis MSBA COVID-19 Challenge Competition.
