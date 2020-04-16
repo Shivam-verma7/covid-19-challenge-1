@@ -6,6 +6,13 @@ We believe that the access to right information is a critical weapon in fighting
 
 The website is accessible through this [link](https://johnelmer.github.io/covid-19-challenge/index.html). A copy of the accompanying presentation can be viewed [here](https://docs.google.com/presentation/d/1Zw0Xh7EcZm_0IaB1KoYhlxPsGQtBoXIXlhiXVCv27Fs/edit?usp=sharing)
 
+## Authors
+
+* [John Elmer Loretizo](https://www.linkedin.com/in/jeploretizo/)
+* [Shivam Verma](https://www.linkedin.com/in/shivam-verma7/)
+* [Shrey Shah](https://www.linkedin.com/in/shdshah/)
+* [Mitesh Jain](https://www.linkedin.com/in/miteshrjain/)
+
 ## Development Notebooks
 
 The following notebook is used for text analytics and development of a research dataset:
@@ -18,7 +25,7 @@ The following notebooks are used to scrape data from various sources:
 
 ## Data
 
-The following datasets have been used in the website:
+**The following datasets have been used in the website:**
 ### Clinical Trials
 
 Clinical Trials data can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/ClinicalTrials.csv).
@@ -66,7 +73,7 @@ Dataset for India, New Zealand, Sweden, Iceland, Japan, Romania, Norway, Finland
 ### Spain Cases by Demographics
 Dataset can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/Spain_Gender_Age_Data.xlsx)
 
-The following datasets have been curated for future use and development:
+**The following datasets have been curated for future use and development:**
 
 ### US Expanded Counties Cases
 In-house built dataset the includes all demographic information for city/county level in areas where there are confirmed COVID Cases. Dataset can be downloaded [here](https://github.com/johnelmer/covid-19-challenge/blob/master/data/appended_us-counties.csv)
